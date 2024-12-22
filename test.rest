@@ -1,0 +1,11 @@
+post http://localhost:8000/app/signup
+Content-Type: application/json
+
+
+{
+    "name":"jack",
+    "email":"jack@gmail.com",
+    "contact":9876543109,
+    "age":23,
+    "jobRole":"developer"
+}
